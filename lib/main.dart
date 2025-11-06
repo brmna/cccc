@@ -16,6 +16,9 @@ class BeautyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Beauty App',
+      theme: ThemeData(
+        useMaterial3: true,
+      ),
       initialRoute: '/',
       routes: {
         '/': (context) => const SplashScreen(),
