@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class GetStartedScreen extends StatelessWidget {
   const GetStartedScreen({super.key});
@@ -12,9 +13,14 @@ class GetStartedScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text(
+            // Letra "B" con fuente Ballet
+            Text(
               "B",
-              style: TextStyle(fontSize: 80, fontWeight: FontWeight.bold),
+              style: GoogleFonts.ballet(
+                fontSize: 80,
+                fontWeight: FontWeight.w400,
+                color: Colors.black,
+              ),
             ),
             const SizedBox(height: 8),
             const Text(

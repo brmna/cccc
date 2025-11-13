@@ -14,7 +14,6 @@ class _LanguageScreenState extends State<LanguageScreen> {
     "English (US)": "🇺🇸",
     "English (UK)": "🇬🇧",
     "Spanish": "🇪🇸",
-    "Chinese": "🇨🇳",
   };
 
   @override
